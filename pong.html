@@ -32,7 +32,7 @@
       canvasContext = canvas.getContext('2d');
 
       var fps = 30;
-      setInterval(function(){moveEverything();drawEverything();}, 100);
+      setInterval(function(){moveEverything();drawEverything();}, 1000/fps);
 
       canvas.addEventListener('mousedown',handleMouseClick);
       canvas.addEventListener('mousemove',
